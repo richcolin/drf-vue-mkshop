@@ -1,5 +1,6 @@
 from django.apps import AppConfig
 
 
-class MxshopConfig(AppConfig):
-    name = 'apps.users'
+class UsersConfig(AppConfig):
+    name = 'users'
+    verbose_name = "用户管理"
